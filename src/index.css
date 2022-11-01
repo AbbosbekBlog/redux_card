@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.header {
+  height: 70px;
+  background-color: gray;
+  display: flex;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > div > a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.header > div > a.active {
+  color: red;
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 100px;
+  gap: 70px;
+}
+.card_box {
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px gray;
+}
+.cards > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  border: 2px solid gray;
+  box-shadow: 5px 5px 20px gray;
+  display: grid;
+  text-align: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 0.5px;
+  grid-template-rows: 1fr;
+  height: 300px;
+  gap: 100px;
+  margin-top: 50px;
+}
+.total {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  color: #111;
+  font-size: 20px;
+  font-weight: 600;
+}
+.delete {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+
+  background-color: black;
+  padding: 10px 25px;
+}
+.card_image > img {
+  width: 400px;
+  height: 300px;
+}
+.card_box1 > * {
+  padding-top: 5px;
+}
+.card_box1 > button {
+  margin-top: 10px;
+  background-color: gray;
+  color: white;
+  font-size: 18px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.title {
+  color: #111;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cards_text {
+  text-align: center;
+  flex-direction: column;
+}
+.cards_text > p {
+  padding-top: 40px;
+}
+.cards_text > h3 {
+  padding-top: 20px;
+}
+.counter > button {
+  width: 40px;
+  font-size: 20px;
+  height: 40px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter > * {
+  margin-left: 20px;
+}
+.counter > span {
+  color: #111;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card_box1 > p {
+  color: #111;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card_box > img {
+  width: 100%;
+  height: 50%;
+}
+.card_box1 > .text {
+  color: #111;
+  font-size: 20px;
+}
